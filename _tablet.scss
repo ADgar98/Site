@@ -1,0 +1,71 @@
+@media (max-width:1024px){
+    .content{
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    
+    
+    }
+    .furniture{
+        &__art{
+            height: 268px;
+        }
+    }
+    .special{
+        column-gap: 29px;
+        row-gap: 38px;
+    }
+    .special-catalog{
+        column-gap: 29px;
+        row-gap: 30px;
+    }
+    
+    .footer{
+        &__logo{
+            display: none;
+            padding-right: 0;
+        }
+        &__nav{
+            padding-right: 130px;
+        }
+        &__contacts-nav{
+            padding-right: 179px;
+        }
+        &__mob{
+            display: none;
+        }
+        
+    }
+    .modal-window{
+        left: -124px;
+    }
+    .cart-product{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .cart-choice{
+        grid-column: span 8;      
+    }
+    .svg-block{
+        opacity: 1;    
+    }
+    
+}
+@media (max-width:833px){
+    .content{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .footer{
+    &__nav{
+        padding-right: 97px;
+    }
+    &__contacts-nav{
+        padding-right: 134px;
+    }
+
+
+    }
+
+}
+
+

@@ -507,5 +507,19 @@
         </div>
     </footer>
     <script src="./visible.js"></script>
+    <script>
+        let imgHoverCatalog = document.querySelectorAll('.sect-catalog__product');
+        let aImgCatalog = document.querySelectorAll('.sect-catalog__like');
+
+        for (let i = 0; i < imgHoverCatalog.length; i++) {
+               imgHoverCatalog[i].addEventListener('mouseover', function() {
+               aImgCatalog[i].style.visibility = 'visible';
+          });
+
+               imgHoverCatalog[i].addEventListener('mouseout', function() {
+               aImgCatalog[i].style.visibility = 'hidden';
+  });
+}
+    </script>
 </body>
 </html>

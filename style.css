@@ -287,13 +287,6 @@ body {
   left: 305px;
   top: 13px;
 }
-.sect-product__svg {
-  transition: all, 0.5s;
-  opacity: 0;
-}
-.sect-product__svg:hover {
-  opacity: 1;
-}
 .sect-product__productname {
   font-weight: 500;
   font-size: 24px;
@@ -369,13 +362,6 @@ body {
   gap: 23px;
   left: 305px;
   top: 13px;
-}
-.sect-catalog__svg {
-  transition: all, 0.5s;
-  opacity: 0;
-}
-.sect-catalog__svg:hover {
-  opacity: 1;
 }
 .sect-catalog__productname {
   font-weight: 500;

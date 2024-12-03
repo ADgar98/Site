@@ -350,6 +350,32 @@
 
         </div>
     </footer>
-    <script src="./visible.js"></script>
+<script>
+    let imgHover = document.querySelectorAll('.sect-product__product');
+    let aImg = document.querySelectorAll('.sect-product__like');
+
+    for (let i = 0; i < imgHover.length; i++) {
+       imgHover[i].addEventListener('mouseover', function() {
+       aImg[i].style.visibility = 'visible';
+  });
+
+       imgHover[i].addEventListener('mouseout', function() {
+       aImg[i].style.visibility = 'hidden';
+  });
+}
+
+let imgHoverCatalog = document.querySelectorAll('.sect-catalog__product');
+let aImgCatalog = document.querySelectorAll('.sect-catalog__like');
+
+for (let i = 0; i < imgHoverCatalog.length; i++) {
+       imgHoverCatalog[i].addEventListener('mouseover', function() {
+       aImgCatalog[i].style.visibility = 'visible';
+  });
+
+       imgHoverCatalog[i].addEventListener('mouseout', function() {
+       aImgCatalog[i].style.visibility = 'hidden';
+  });
+}
+    </script>
 </body>
 </html>
